@@ -1,0 +1,3485 @@
+{
+  "query": {
+    "is_published": false,
+    "is_owned": true
+  },
+  "pagination": {
+    "page_size": 2000,
+    "order_by": "upload_create_time",
+    "order": "asc",
+    "page": 1,
+    "total": 123,
+    "page_url": "http://nomad-lab.eu/prod/v1/api/v1/uploads?roles=main_author&is_published=false&is_owned=true&page_size=2000&order=asc",
+    "first_page_url": "http://nomad-lab.eu/prod/v1/api/v1/uploads?roles=main_author&is_published=false&is_owned=true&page_size=2000&order=asc"
+  },
+  "data": [
+    {
+      "process_running": true,
+      "current_process": "process_upload",
+      "process_status": "RUNNING",
+      "last_status_message": "Cleanup",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2022-11-07T15:55:33.257000",
+      "upload_id": "wtfkNihYTmSNI86qBnLP_w",
+      "upload_create_time": "2022-11-07T15:49:22.051000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 1104,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/w/wtfkNihYTmSNI86qBnLP_w"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:20:59.461000",
+      "upload_id": "GcAsf2BrSTq57JxcmMhXiw",
+      "upload_name": "second_folders-0.zip",
+      "upload_create_time": "2023-09-11T10:01:40.314000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 526,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/G/GcAsf2BrSTq57JxcmMhXiw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:19:54.156000",
+      "upload_id": "35JRS5OpQLGzdYR1yCKzbA",
+      "upload_name": "second_folders-1.zip",
+      "upload_create_time": "2023-09-13T13:46:03.678000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 175,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/3/35JRS5OpQLGzdYR1yCKzbA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:17:58.503000",
+      "upload_id": "ys1Ik-VTRimBpBIyRBg8gA",
+      "upload_name": "second_folders-2.zip",
+      "upload_create_time": "2023-09-13T13:46:27.401000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 461,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/y/ys1Ik-VTRimBpBIyRBg8gA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:17:24.189000",
+      "upload_id": "JpQJj3iZR0yAIMBS9sTXYw",
+      "upload_name": "second_folders-3.zip",
+      "upload_create_time": "2023-09-13T13:46:32.503000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 511,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/J/JpQJj3iZR0yAIMBS9sTXYw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:16:49.318000",
+      "upload_id": "bLdI-XLmTZ2n0L45l1hJFw",
+      "upload_name": "second_folders-4.zip",
+      "upload_create_time": "2023-09-13T13:46:37.980000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 573,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/b/bLdI-XLmTZ2n0L45l1hJFw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:16:00.952000",
+      "upload_id": "M6FLyu0HRAmh23QHXVGOpw",
+      "upload_name": "second_folders-5.zip",
+      "upload_create_time": "2023-09-13T13:46:41.920000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 802,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/M/M6FLyu0HRAmh23QHXVGOpw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:15:31.407000",
+      "upload_id": "MtXAyz55QTiQVxIDLFwHeQ",
+      "upload_name": "second_folders-6.zip",
+      "upload_create_time": "2023-09-13T13:46:47.485000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 525,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/M/MtXAyz55QTiQVxIDLFwHeQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:14:10.100000",
+      "upload_id": "pDVJ6G_4S56lSCu82GnveQ",
+      "upload_name": "second_folders-7.zip",
+      "upload_create_time": "2023-09-13T13:46:52.194000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 455,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/p/pDVJ6G_4S56lSCu82GnveQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:13:42.178000",
+      "upload_id": "gxq9-qBeQNa0mLBd_VCcGw",
+      "upload_name": "second_folders-8.zip",
+      "upload_create_time": "2023-09-13T13:46:56.223000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 790,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/g/gxq9-qBeQNa0mLBd_VCcGw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:13:01.264000",
+      "upload_id": "_xqojWc3S1GR4rcfL2B6Yw",
+      "upload_name": "second_folders-9.zip",
+      "upload_create_time": "2023-09-13T13:47:03.080000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 528,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/_/_xqojWc3S1GR4rcfL2B6Yw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:08:37.650000",
+      "upload_id": "FqoLu9WXRT6zAOp8JDdLRQ",
+      "upload_name": "second_folders-10.zip",
+      "upload_create_time": "2023-09-13T13:47:09.153000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 1003,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/F/FqoLu9WXRT6zAOp8JDdLRQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:07:36.504000",
+      "upload_id": "t2klkNDySoyPSEpK8PYrcQ",
+      "upload_name": "second_folders-11.zip",
+      "upload_create_time": "2023-09-13T16:51:32.227000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 844,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/t/t2klkNDySoyPSEpK8PYrcQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:06:07.204000",
+      "upload_id": "GAK00HBiQQCH5VJvD5rDIQ",
+      "upload_name": "second_folders-12.zip",
+      "upload_create_time": "2023-09-13T16:51:38.341000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 757,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/G/GAK00HBiQQCH5VJvD5rDIQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:04:37.059000",
+      "upload_id": "W1wFodu7RESUpS_zrPAnYQ",
+      "upload_name": "second_folders-13.zip",
+      "upload_create_time": "2023-09-13T16:51:45.166000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 478,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/W/W1wFodu7RESUpS_zrPAnYQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-15T14:53:25.373000",
+      "upload_id": "AowXptXmTD6nFAS7dlcpSA",
+      "upload_name": "second_folders-14.zip",
+      "upload_create_time": "2023-09-13T16:51:52.230000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 890,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/A/AowXptXmTD6nFAS7dlcpSA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:03:27.579000",
+      "upload_id": "MuJhPe7wRLuzEwsb_GAb7g",
+      "upload_name": "second_folders-15.zip",
+      "upload_create_time": "2023-09-13T16:51:57.022000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 700,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/M/MuJhPe7wRLuzEwsb_GAb7g"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:02:58.189000",
+      "upload_id": "c3z_Dhu8ThSFuDhLr6BFmg",
+      "upload_name": "second_folders-16.zip",
+      "upload_create_time": "2023-09-13T16:52:04.198000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 609,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/c/c3z_Dhu8ThSFuDhLr6BFmg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:02:29.401000",
+      "upload_id": "ojeVcw5iQn2VigkcUUKuXA",
+      "upload_name": "second_folders-17.zip",
+      "upload_create_time": "2023-09-13T16:52:08.963000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 774,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/o/ojeVcw5iQn2VigkcUUKuXA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:01:51.385000",
+      "upload_id": "QacngM0IT1WmC5qq-DuI1g",
+      "upload_name": "second_folders-18.zip",
+      "upload_create_time": "2023-09-13T16:52:19.068000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 439,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/Q/QacngM0IT1WmC5qq-DuI1g"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T03:01:29.147000",
+      "upload_id": "gTSTlOShQ6aQIhrA-JrBqA",
+      "upload_name": "second_folders-19.zip",
+      "upload_create_time": "2023-09-13T16:52:25.187000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 670,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/g/gTSTlOShQ6aQIhrA-JrBqA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T02:59:55.538000",
+      "upload_id": "xzutJByJTPKYDUYHMd539g",
+      "upload_name": "folders-0.zip",
+      "upload_create_time": "2023-09-13T17:03:54.257000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 312,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/x/xzutJByJTPKYDUYHMd539g"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T02:59:14.996000",
+      "upload_id": "FTqXKHOTT2iX2nN-Hec6kw",
+      "upload_name": "folders-1.zip",
+      "upload_create_time": "2023-09-13T17:03:59.989000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 347,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/F/FTqXKHOTT2iX2nN-Hec6kw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T18:03:29.595000",
+      "upload_id": "7wt5X_HlS5Gva80rpDHOwA",
+      "upload_name": "folders-2.zip",
+      "upload_create_time": "2023-09-13T17:04:06.306000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 275,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/7/7wt5X_HlS5Gva80rpDHOwA"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-09-28T23:22:25.748000",
+      "upload_id": "64eVgY4ZQ7uRk3y9W6vhDw",
+      "upload_name": "folders-3.zip",
+      "upload_create_time": "2023-09-13T17:04:11.413000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 249,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/6/64eVgY4ZQ7uRk3y9W6vhDw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:58:05.882000",
+      "upload_id": "haJxxczpTcyKFZspDNXM2A",
+      "upload_name": "folders-4.zip",
+      "upload_create_time": "2023-09-13T17:04:16.714000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 226,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/h/haJxxczpTcyKFZspDNXM2A"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:54:30.280000",
+      "upload_id": "CB6GtXw7TLiZ73i_V-22QQ",
+      "upload_name": "folders-5.zip",
+      "upload_create_time": "2023-09-13T17:04:22.646000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 56,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/C/CB6GtXw7TLiZ73i_V-22QQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:50:00.017000",
+      "upload_id": "9va2LDQgR3OyxiELA0v8Xw",
+      "upload_name": "folders-6.zip",
+      "upload_create_time": "2023-09-13T17:04:29.464000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 288,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/9/9va2LDQgR3OyxiELA0v8Xw"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-09-29T01:02:06.024000",
+      "upload_id": "uu5VmYaMQMabB0unpHDWPg",
+      "upload_name": "folders-7.zip",
+      "upload_create_time": "2023-09-13T17:04:33.904000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 197,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/u/uu5VmYaMQMabB0unpHDWPg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:06:04.681000",
+      "upload_id": "yaaewl7SSFWRlRa9fqkdqw",
+      "upload_name": "folders-8.zip",
+      "upload_create_time": "2023-09-13T17:04:38.730000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 427,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/y/yaaewl7SSFWRlRa9fqkdqw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:48:07.600000",
+      "upload_id": "Op_FXjgQTuOwZN5GSuh1UA",
+      "upload_name": "folders-9.zip",
+      "upload_create_time": "2023-09-13T17:04:43.125000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 247,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/O/Op_FXjgQTuOwZN5GSuh1UA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:46:39.518000",
+      "upload_id": "HymQtMjCRTSds50AGcD6cQ",
+      "upload_name": "folders-10.zip",
+      "upload_create_time": "2023-09-13T17:04:49.063000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 295,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/H/HymQtMjCRTSds50AGcD6cQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:46:08.863000",
+      "upload_id": "oNyNOmsvRzeyFwIINDf0Jw",
+      "upload_name": "folders-11.zip",
+      "upload_create_time": "2023-09-13T17:04:53.613000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 359,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/o/oNyNOmsvRzeyFwIINDf0Jw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:45:14.088000",
+      "upload_id": "mrxkw_mXSwW9qM6CtDOiYA",
+      "upload_name": "folders-13.zip",
+      "upload_create_time": "2023-09-13T17:05:05.234000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 330,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/m/mrxkw_mXSwW9qM6CtDOiYA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:22:55.482000",
+      "upload_id": "8iFLQ_JlS_6VlJ9QTk0ZQA",
+      "upload_name": "folders-14.zip",
+      "upload_create_time": "2023-09-13T17:05:12.952000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 238,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/8/8iFLQ_JlS_6VlJ9QTk0ZQA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:32:54.230000",
+      "upload_id": "sG9_863iSUiNBrB9eas5xg",
+      "upload_name": "folders-15.zip",
+      "upload_create_time": "2023-09-13T17:05:18.640000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 385,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/s/sG9_863iSUiNBrB9eas5xg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:42:36.054000",
+      "upload_id": "q1WOjddARrGH5pwHNchISg",
+      "upload_name": "folders-16.zip",
+      "upload_create_time": "2023-09-13T17:05:23.570000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 278,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/q/q1WOjddARrGH5pwHNchISg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:41:06.933000",
+      "upload_id": "VF0od-1KRyWc9Zu7Cb33UQ",
+      "upload_name": "folders-17.zip",
+      "upload_create_time": "2023-09-13T17:05:28.126000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 249,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/V/VF0od-1KRyWc9Zu7Cb33UQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:39:29.423000",
+      "upload_id": "rnEJ1vYYQF2LHjYluRS_gQ",
+      "upload_name": "folders-18.zip",
+      "upload_create_time": "2023-09-13T17:05:33.329000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 313,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/r/rnEJ1vYYQF2LHjYluRS_gQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:38:01.747000",
+      "upload_id": "N7uyv4QETzOXgZ5P-hTjSg",
+      "upload_name": "folders-19.zip",
+      "upload_create_time": "2023-09-13T17:05:38.367000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 262,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/N/N7uyv4QETzOXgZ5P-hTjSg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:35:56.044000",
+      "upload_id": "CjE13uitRfeDb_hFUF8tng",
+      "upload_name": "folders-2.zip",
+      "upload_create_time": "2023-09-13T17:05:45.143000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 275,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/C/CjE13uitRfeDb_hFUF8tng"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:34:57.096000",
+      "upload_id": "JhwWEfgGTAaJCZVsGIZNaQ",
+      "upload_name": "folders-20.zip",
+      "upload_create_time": "2023-09-13T17:05:49.420000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 375,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/J/JhwWEfgGTAaJCZVsGIZNaQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:34:26.387000",
+      "upload_id": "4z-c4oeISWCtkZjL2Z54zQ",
+      "upload_name": "folders-21.zip",
+      "upload_create_time": "2023-09-13T17:05:53.826000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 276,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/4/4z-c4oeISWCtkZjL2Z54zQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T17:33:46.686000",
+      "upload_id": "tGgnsA1qQOCzUPCA7EtGaQ",
+      "upload_name": "folders-22.zip",
+      "upload_create_time": "2023-09-13T17:05:57.936000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 360,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/t/tGgnsA1qQOCzUPCA7EtGaQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T16:07:20.205000",
+      "upload_id": "qi9IXkDITWWeTv4rCBTenQ",
+      "upload_name": "folders-23.zip",
+      "upload_create_time": "2023-09-13T17:06:02.554000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 416,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/q/qi9IXkDITWWeTv4rCBTenQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-09-29T11:53:17.034000",
+      "upload_id": "pP2LH3NkQxOTcAowLfebSA",
+      "upload_name": "folders-24.zip",
+      "upload_create_time": "2023-09-13T17:06:06.736000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 359,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/p/pP2LH3NkQxOTcAowLfebSA"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-09-29T12:09:51.777000",
+      "upload_id": "A8KaeOcSRhaRQR1KCC5N-g",
+      "upload_name": "folders-28.zip",
+      "upload_create_time": "2023-09-13T17:06:24.008000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 142,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/A/A8KaeOcSRhaRQR1KCC5N-g"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-09-29T12:48:35.931000",
+      "upload_id": "EJsdqMiETKqeq8U5_oj5lA",
+      "upload_name": "folders-29.zip",
+      "upload_create_time": "2023-09-13T17:06:56.261000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 241,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/E/EJsdqMiETKqeq8U5_oj5lA"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-09-29T13:31:37.638000",
+      "upload_id": "ZQ_N1JAWQ_6TriP9N3ZmlQ",
+      "upload_name": "folders-30.zip",
+      "upload_create_time": "2023-09-13T17:08:13.631000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 340,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/Z/ZQ_N1JAWQ_6TriP9N3ZmlQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-09-29T13:44:41.642000",
+      "upload_id": "bcAeRNI_R2ibiB7r8hNuyw",
+      "upload_name": "folders-31.zip",
+      "upload_create_time": "2023-09-13T17:08:18.681000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 145,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/b/bcAeRNI_R2ibiB7r8hNuyw"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-09-29T13:51:46.868000",
+      "upload_id": "ZQK2hmSSTYWLRzpAvkjPwQ",
+      "upload_name": "folders-32.zip",
+      "upload_create_time": "2023-09-13T17:08:23.371000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 68,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/Z/ZQK2hmSSTYWLRzpAvkjPwQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-09-29T13:56:01.167000",
+      "upload_id": "t610McvbToG1fvk3XGtZ6A",
+      "upload_name": "folders-33.zip",
+      "upload_create_time": "2023-09-13T17:08:28.779000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 62,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/t/t610McvbToG1fvk3XGtZ6A"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:52:40.921000",
+      "upload_id": "4xYhmq36S5eRpfk9BnVCrg",
+      "upload_name": "folders-34.zip",
+      "upload_create_time": "2023-09-13T17:08:33.120000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 63,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/4/4xYhmq36S5eRpfk9BnVCrg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:51:30.992000",
+      "upload_id": "nnz69DfFSTKA4psfkBm8mA",
+      "upload_name": "folders-35.zip",
+      "upload_create_time": "2023-09-13T17:08:37.579000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 44,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/n/nnz69DfFSTKA4psfkBm8mA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:46:31.439000",
+      "upload_id": "UW7-Bb2nTnq7v8TuIJLwtw",
+      "upload_name": "folders-36.zip",
+      "upload_create_time": "2023-09-13T17:08:50.598000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 34,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/U/UW7-Bb2nTnq7v8TuIJLwtw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:48:43.119000",
+      "upload_id": "fz5fXhmZQ6eiqCKoEzATNw",
+      "upload_name": "folders-37.zip",
+      "upload_create_time": "2023-09-13T17:08:55.529000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 36,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/f/fz5fXhmZQ6eiqCKoEzATNw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:43:46.857000",
+      "upload_id": "TcnVN-AaT-22JtVfc35SLw",
+      "upload_name": "folders-38.zip",
+      "upload_create_time": "2023-09-13T17:09:00.184000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 34,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/T/TcnVN-AaT-22JtVfc35SLw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:42:49.528000",
+      "upload_id": "siHcFGM1RxSou7mUPB3smA",
+      "upload_name": "folders-39.zip",
+      "upload_create_time": "2023-09-13T17:09:05.607000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 43,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/s/siHcFGM1RxSou7mUPB3smA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:41:32.885000",
+      "upload_id": "O0YWCM0rShKXvsiwPZnCgg",
+      "upload_name": "folders-40.zip",
+      "upload_create_time": "2023-09-13T17:09:10.908000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 34,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/O/O0YWCM0rShKXvsiwPZnCgg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:40:45.085000",
+      "upload_id": "VoSYPkupSrKhidspnnBn7A",
+      "upload_name": "folders-41.zip",
+      "upload_create_time": "2023-09-13T17:09:15.776000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 34,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/V/VoSYPkupSrKhidspnnBn7A"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:40:07.438000",
+      "upload_id": "mbv1R9IdSBmcECqn_kuu0Q",
+      "upload_name": "folders-42.zip",
+      "upload_create_time": "2023-09-13T17:09:23.814000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 35,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/m/mbv1R9IdSBmcECqn_kuu0Q"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:39:23.976000",
+      "upload_id": "o34mBvcsRjaK0WUKqN353A",
+      "upload_name": "folders-45.zip",
+      "upload_create_time": "2023-09-13T17:10:03.573000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 35,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/o/o34mBvcsRjaK0WUKqN353A"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:38:30.144000",
+      "upload_id": "PGKgErooSpW5jaRsdTi7TQ",
+      "upload_name": "folders-46.zip",
+      "upload_create_time": "2023-09-13T17:10:08.077000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 165,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/P/PGKgErooSpW5jaRsdTi7TQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:37:59.842000",
+      "upload_id": "y8RKkLuNREmSofUq0w1wGg",
+      "upload_name": "folders-47.zip",
+      "upload_create_time": "2023-09-13T17:10:11.955000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 176,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/y/y8RKkLuNREmSofUq0w1wGg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:30:46.502000",
+      "upload_id": "I2-sZi9bQqOPWuOTuYpGiw",
+      "upload_name": "folders-48.zip",
+      "upload_create_time": "2023-09-13T17:10:16.081000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 362,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/I/I2-sZi9bQqOPWuOTuYpGiw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:31:10.134000",
+      "upload_id": "CreQA4ODRm6Nesvya8BszQ",
+      "upload_name": "folders-49.zip",
+      "upload_create_time": "2023-09-13T17:10:21.615000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 98,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/C/CreQA4ODRm6Nesvya8BszQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:31:48.065000",
+      "upload_id": "lFXaINpPRD6v2Z8ZWsBVrA",
+      "upload_name": "folders-5.zip",
+      "upload_create_time": "2023-09-13T17:10:30.776000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 56,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/l/lFXaINpPRD6v2Z8ZWsBVrA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:32:24.652000",
+      "upload_id": "uj9P5zkxSrK9ZHMWEfjYmQ",
+      "upload_name": "folders-50.zip",
+      "upload_create_time": "2023-09-13T17:10:34.839000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 200,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/u/uj9P5zkxSrK9ZHMWEfjYmQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:16:38.164000",
+      "upload_id": "58o8cuM6Ts-EAaQEil9UVw",
+      "upload_name": "folders-51.zip",
+      "upload_create_time": "2023-09-13T17:10:40.159000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 274,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/5/58o8cuM6Ts-EAaQEil9UVw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:16:04.757000",
+      "upload_id": "rPUZcBURS3GH9BCt4GhEMg",
+      "upload_name": "folders-52.zip",
+      "upload_create_time": "2023-09-13T17:10:44.388000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 262,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/r/rPUZcBURS3GH9BCt4GhEMg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:14:52.005000",
+      "upload_id": "cqewkABOQomco-p9YWgaTg",
+      "upload_name": "folders-53.zip",
+      "upload_create_time": "2023-09-13T17:10:48.609000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 174,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/c/cqewkABOQomco-p9YWgaTg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:14:10.128000",
+      "upload_id": "yeIbPr3hQaaMNsgteG74VA",
+      "upload_name": "folders-56.zip",
+      "upload_create_time": "2023-09-13T17:11:05.896000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 222,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/y/yeIbPr3hQaaMNsgteG74VA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:12:47.231000",
+      "upload_id": "tk27WcfxQuSv-reyZ_MB-w",
+      "upload_name": "folders-57.zip",
+      "upload_create_time": "2023-09-13T17:11:11.430000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 229,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/t/tk27WcfxQuSv-reyZ_MB-w"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:11:39.508000",
+      "upload_id": "KKgzRRV_SyuQrTdLeBYE2A",
+      "upload_name": "folders-58.zip",
+      "upload_create_time": "2023-09-13T17:11:17.398000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 37,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/K/KKgzRRV_SyuQrTdLeBYE2A"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:03:46.415000",
+      "upload_id": "d5pt1vNRQnOksBzLobXmmw",
+      "upload_name": "folders-59.zip",
+      "upload_create_time": "2023-09-13T17:11:23.061000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 34,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/d/d5pt1vNRQnOksBzLobXmmw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:05:08.745000",
+      "upload_id": "1zt8JUBvSDyNbtBK_Ma6BQ",
+      "upload_name": "folders-6.zip",
+      "upload_create_time": "2023-09-13T17:11:34.787000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 288,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/1/1zt8JUBvSDyNbtBK_Ma6BQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:02:37.707000",
+      "upload_id": "MZcyVOVSRGqQhGWlfj_p-Q",
+      "upload_name": "folders-60.zip",
+      "upload_create_time": "2023-09-13T17:11:38.646000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 34,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/M/MZcyVOVSRGqQhGWlfj_p-Q"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:01:08.405000",
+      "upload_id": "02zwCAF1QWCcyUdCEEGrSA",
+      "upload_name": "folders-61.zip",
+      "upload_create_time": "2023-09-13T17:11:42.484000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 78,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/0/02zwCAF1QWCcyUdCEEGrSA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T15:00:05.865000",
+      "upload_id": "1bRvZW4XTPu9N2W6t2WNUA",
+      "upload_name": "folders-62.zip",
+      "upload_create_time": "2023-09-13T17:11:46.495000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 50,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/1/1bRvZW4XTPu9N2W6t2WNUA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:58:48.348000",
+      "upload_id": "0LkjCxueTuG4suh4ubwu5w",
+      "upload_name": "folders-63.zip",
+      "upload_create_time": "2023-09-13T17:11:50.638000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 42,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/0/0LkjCxueTuG4suh4ubwu5w"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:58:03.775000",
+      "upload_id": "n7IX2BMPRj636m7ijXXUxg",
+      "upload_name": "folders-67.zip",
+      "upload_create_time": "2023-09-13T17:12:09.910000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 34,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/n/n7IX2BMPRj636m7ijXXUxg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:56:43.205000",
+      "upload_id": "TSzGFh-kSb68p8ozW0KAuQ",
+      "upload_name": "folders-68.zip",
+      "upload_create_time": "2023-09-13T17:12:14.171000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 38,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/T/TSzGFh-kSb68p8ozW0KAuQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:55:54.053000",
+      "upload_id": "63bCreQZQ32CCxl3OOHLhw",
+      "upload_name": "folders-69.zip",
+      "upload_create_time": "2023-09-13T17:12:19.217000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 38,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/6/63bCreQZQ32CCxl3OOHLhw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:55:29.162000",
+      "upload_id": "PvQxAxJ2Sum0KAPzYYI-Qw",
+      "upload_name": "folders-7.zip",
+      "upload_create_time": "2023-09-13T17:12:24.626000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 197,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/P/PvQxAxJ2Sum0KAPzYYI-Qw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:49:47.957000",
+      "upload_id": "V3i5Uj9qQhSuIeJgDeKKKg",
+      "upload_name": "folders-70.zip",
+      "upload_create_time": "2023-09-13T17:12:28.415000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 75,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/V/V3i5Uj9qQhSuIeJgDeKKKg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:50:32.040000",
+      "upload_id": "t9X3o6WDTpqXwAPpDVJbgw",
+      "upload_name": "folders-71.zip",
+      "upload_create_time": "2023-09-13T17:12:34.408000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 346,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/t/t9X3o6WDTpqXwAPpDVJbgw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:51:00.109000",
+      "upload_id": "jMnlu7LwS2SxDaFC4Zvspw",
+      "upload_name": "folders-72.zip",
+      "upload_create_time": "2023-09-13T17:12:38.492000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 447,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/j/jMnlu7LwS2SxDaFC4Zvspw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:51:55.305000",
+      "upload_id": "QJk2daYJQD6bJw2IrJOTdg",
+      "upload_name": "folders-73.zip",
+      "upload_create_time": "2023-09-13T17:12:44.858000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 246,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/Q/QJk2daYJQD6bJw2IrJOTdg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:52:27.841000",
+      "upload_id": "mZwxFgmNTGqZ60kPEZ068g",
+      "upload_name": "folders-74.zip",
+      "upload_create_time": "2023-09-13T17:12:48.885000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 351,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/m/mZwxFgmNTGqZ60kPEZ068g"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:53:28.344000",
+      "upload_id": "ZpJvcbRaS1O3jj7R_uvKjA",
+      "upload_name": "folders-78.zip",
+      "upload_create_time": "2023-09-13T17:13:09.829000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 529,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/Z/ZpJvcbRaS1O3jj7R_uvKjA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:54:08.753000",
+      "upload_id": "3esZC2ynRDWa5pNUI8oLpg",
+      "upload_name": "folders-79.zip",
+      "upload_create_time": "2023-09-13T17:13:13.611000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 225,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/3/3esZC2ynRDWa5pNUI8oLpg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:44:02.293000",
+      "upload_id": "dpfdwrH4SWyRJKpJJ9hcIQ",
+      "upload_name": "folders-8.zip",
+      "upload_create_time": "2023-09-13T17:13:19.892000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 427,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/d/dpfdwrH4SWyRJKpJJ9hcIQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:40:10.452000",
+      "upload_id": "Ps4S7tiuTAmowklyOMJskw",
+      "upload_name": "folders-80.zip",
+      "upload_create_time": "2023-09-13T17:13:24.084000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 411,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/P/Ps4S7tiuTAmowklyOMJskw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:39:38.386000",
+      "upload_id": "fJjHg_OXRWGXx8sHHaViVw",
+      "upload_name": "folders-81.zip",
+      "upload_create_time": "2023-09-13T17:13:28.914000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 482,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/f/fJjHg_OXRWGXx8sHHaViVw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:38:10.433000",
+      "upload_id": "nHnivIpIQve8kmfwHVDv3g",
+      "upload_name": "folders-82.zip",
+      "upload_create_time": "2023-09-13T17:13:32.638000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 211,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/n/nHnivIpIQve8kmfwHVDv3g"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:37:44.514000",
+      "upload_id": "CtqTSe5oTlyB0E02MXoxmQ",
+      "upload_name": "folders-83.zip",
+      "upload_create_time": "2023-09-13T17:13:36.365000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 192,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/C/CtqTSe5oTlyB0E02MXoxmQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:37:21.280000",
+      "upload_id": "wJsoeHHUR8miqSop9-4hGw",
+      "upload_name": "folders-84.zip",
+      "upload_create_time": "2023-09-13T17:13:40.360000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 180,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/w/wJsoeHHUR8miqSop9-4hGw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:36:14.959000",
+      "upload_id": "slgzP3RrQV-oqEEqDx7G1A",
+      "upload_name": "folders-89.zip",
+      "upload_create_time": "2023-09-13T17:13:59.770000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 43,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/s/slgzP3RrQV-oqEEqDx7G1A"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:36:44.123000",
+      "upload_id": "uu1C4KBURcefMVC9FNucRA",
+      "upload_name": "folders-9.zip",
+      "upload_create_time": "2023-09-13T17:14:03.577000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 247,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/u/uu1C4KBURcefMVC9FNucRA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:35:54.059000",
+      "upload_id": "BIyQfLf6ST--0nZ9HgmXRQ",
+      "upload_name": "folders-90.zip",
+      "upload_create_time": "2023-09-13T17:14:07.759000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 42,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/B/BIyQfLf6ST--0nZ9HgmXRQ"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:35:13.861000",
+      "upload_id": "HGmXp4JfS2mOowFWesrKew",
+      "upload_name": "folders-91.zip",
+      "upload_create_time": "2023-09-13T17:14:11.236000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 141,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/H/HGmXp4JfS2mOowFWesrKew"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:31:20.344000",
+      "upload_id": "WM-YnZ3UTb6a6uXvNBL3Dg",
+      "upload_name": "folders-92.zip",
+      "upload_create_time": "2023-09-13T17:14:18.033000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 309,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/W/WM-YnZ3UTb6a6uXvNBL3Dg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:33:47.629000",
+      "upload_id": "EFoA8-WKQOKFAuAbh9Yxaw",
+      "upload_name": "folders-93.zip",
+      "upload_create_time": "2023-09-13T17:14:21.928000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 193,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/E/EFoA8-WKQOKFAuAbh9Yxaw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:32:56.284000",
+      "upload_id": "PkQI90V_Q4esYFIc9FPu8A",
+      "upload_name": "folders-94.zip",
+      "upload_create_time": "2023-09-13T17:14:27.244000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 237,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/P/PkQI90V_Q4esYFIc9FPu8A"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:30:19.961000",
+      "upload_id": "Ltd53t-PSKCu19tQMMDhJA",
+      "upload_name": "folders-88.zip",
+      "upload_create_time": "2023-10-05T11:46:42.297000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 181,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/L/Ltd53t-PSKCu19tQMMDhJA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:28:45.692000",
+      "upload_id": "cuYiBsZzRp-NuDuZWbejog",
+      "upload_name": "folders-87.zip",
+      "upload_create_time": "2023-10-05T11:53:13.272000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 502,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/c/cuYiBsZzRp-NuDuZWbejog"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:27:51.820000",
+      "upload_id": "Tiz9h_QoTIC4M1VBHUFwjw",
+      "upload_name": "folders-86.zip",
+      "upload_create_time": "2023-10-05T11:53:57.495000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 411,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/T/Tiz9h_QoTIC4M1VBHUFwjw"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-10-05T14:16:12.723000",
+      "upload_id": "oKrHD7EzRE2uWF83Pw0nkg",
+      "upload_name": "folders-85.zip",
+      "upload_create_time": "2023-10-05T11:54:02.627000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 380,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/o/oKrHD7EzRE2uWF83Pw0nkg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:24:41.445000",
+      "upload_id": "aTldBIFAS2Kl9eQSeRFAxw",
+      "upload_name": "folders-77.zip",
+      "upload_create_time": "2023-10-05T11:54:20.863000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 257,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/a/aTldBIFAS2Kl9eQSeRFAxw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:22:59.326000",
+      "upload_id": "5N53dj6XTESETOWJAhgCOg",
+      "upload_name": "folders-76.zip",
+      "upload_create_time": "2023-10-05T11:54:26.629000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 350,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/5/5N53dj6XTESETOWJAhgCOg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:22:18.482000",
+      "upload_id": "2fk5f2GeT8GG3mZWSSp6Jw",
+      "upload_name": "folders-75.zip",
+      "upload_create_time": "2023-10-05T11:54:32.722000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 306,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/2/2fk5f2GeT8GG3mZWSSp6Jw"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:21:25.847000",
+      "upload_id": "uzZx6kgxTLyFhZuSeppYww",
+      "upload_name": "folders-66.zip",
+      "upload_create_time": "2023-10-05T11:54:58.723000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 43,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/u/uzZx6kgxTLyFhZuSeppYww"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:20:24.989000",
+      "upload_id": "zp94mCYzQSCtyHP4FOFA0g",
+      "upload_name": "folders-65.zip",
+      "upload_create_time": "2023-10-05T11:55:04.226000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 47,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/z/zp94mCYzQSCtyHP4FOFA0g"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:18:26.073000",
+      "upload_id": "QSLyK7zESHmAXaikxHQISg",
+      "upload_name": "folders-64.zip",
+      "upload_create_time": "2023-10-05T11:55:08.702000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 53,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/Q/QSLyK7zESHmAXaikxHQISg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:18:04.406000",
+      "upload_id": "6qVyqemXQMucczP17tMo1g",
+      "upload_name": "folders-55.zip",
+      "upload_create_time": "2023-10-05T11:55:24.109000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 306,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/6/6qVyqemXQMucczP17tMo1g"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:17:39.669000",
+      "upload_id": "XOkogAURRmyFCHCNCGI49A",
+      "upload_name": "folders-54.zip",
+      "upload_create_time": "2023-10-05T11:55:28.341000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 221,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/X/XOkogAURRmyFCHCNCGI49A"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-13T14:17:00.296000",
+      "upload_id": "hKa9B9NlQ5CSoVrwy94Ijg",
+      "upload_name": "folders-44.zip",
+      "upload_create_time": "2023-10-05T11:55:57.348000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 34,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/h/hKa9B9NlQ5CSoVrwy94Ijg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-10T12:55:46.104000",
+      "upload_id": "p_Z1891ZQ9KsVvBOzEAgEg",
+      "upload_name": "folders-43.zip",
+      "upload_create_time": "2023-10-05T11:56:02.404000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 35,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/p/p_Z1891ZQ9KsVvBOzEAgEg"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-10T12:55:32.523000",
+      "upload_id": "w6yArWmTQoOel9g4Yux4TA",
+      "upload_name": "folders-3.zip",
+      "upload_create_time": "2023-10-05T11:56:07.013000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 249,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/w/w6yArWmTQoOel9g4Yux4TA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-10T12:55:13.647000",
+      "upload_id": "MT4RnSUyRtutJJHTO_iz_A",
+      "upload_name": "folders-27.zip",
+      "upload_create_time": "2023-10-05T11:56:42.843000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 356,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/M/MT4RnSUyRtutJJHTO_iz_A"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-10T12:54:34.779000",
+      "upload_id": "UBtY5iM_TZ6_If8j5THKwA",
+      "upload_name": "folders-26.zip",
+      "upload_create_time": "2023-10-05T11:56:48.410000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 194,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/U/UBtY5iM_TZ6_If8j5THKwA"
+    },
+    {
+      "process_running": false,
+      "current_process": "process_upload",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process process_upload completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-10T12:53:09.638000",
+      "upload_id": "eMp3mq30Q7iWRt2lZld2gA",
+      "upload_name": "folders-25.zip",
+      "upload_create_time": "2023-10-05T11:56:52.504000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 144,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/e/eMp3mq30Q7iWRt2lZld2gA"
+    },
+    {
+      "process_running": false,
+      "current_process": "edit_upload_metadata",
+      "process_status": "SUCCESS",
+      "last_status_message": "Process edit_upload_metadata completed successfully",
+      "errors": [],
+      "warnings": [],
+      "complete_time": "2023-11-14T13:49:03.409000",
+      "upload_id": "wW45wJKiREOYTY0ARuknkA",
+      "upload_name": "folders-12.zip",
+      "upload_create_time": "2023-10-05T11:57:09.478000",
+      "main_author": "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+      "coauthors": [
+        "521be22f-503c-402d-be48-00615be8d739",
+        "807d1e0b-3f37-454c-9375-1dcd8364aba0",
+        "62314f75-a859-4b3a-ae6d-e9a0f6c1d8cc",
+        "05375d3f-87e5-4266-9ec8-e80bfe2a739d",
+        "29b4abc0-e949-45e7-806d-cad1603433ba",
+        "7df5d5c8-685b-44ce-846c-4a9c4a1e3d93",
+        "3f308817-3883-412a-9a8c-555c9f4b6ba9",
+        "c7ac4b80-33e0-443b-a1a4-aa633c34399a"
+      ],
+      "reviewers": [],
+      "viewers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+        "521be22f-503c-402d-be48-00615be8d739",
+        "807d1e0b-3f37-454c-9375-1dcd8364aba0",
+        "62314f75-a859-4b3a-ae6d-e9a0f6c1d8cc",
+        "05375d3f-87e5-4266-9ec8-e80bfe2a739d",
+        "29b4abc0-e949-45e7-806d-cad1603433ba",
+        "7df5d5c8-685b-44ce-846c-4a9c4a1e3d93",
+        "3f308817-3883-412a-9a8c-555c9f4b6ba9",
+        "c7ac4b80-33e0-443b-a1a4-aa633c34399a"
+      ],
+      "writers": [
+        "6c86ffe3-0fbb-4f7f-9471-0838117128ed",
+        "521be22f-503c-402d-be48-00615be8d739",
+        "807d1e0b-3f37-454c-9375-1dcd8364aba0",
+        "62314f75-a859-4b3a-ae6d-e9a0f6c1d8cc",
+        "05375d3f-87e5-4266-9ec8-e80bfe2a739d",
+        "29b4abc0-e949-45e7-806d-cad1603433ba",
+        "7df5d5c8-685b-44ce-846c-4a9c4a1e3d93",
+        "3f308817-3883-412a-9a8c-555c9f4b6ba9",
+        "c7ac4b80-33e0-443b-a1a4-aa633c34399a"
+      ],
+      "published": false,
+      "published_to": [],
+      "with_embargo": false,
+      "embargo_length": 0,
+      "license": "CC BY 4.0",
+      "entries": 450,
+      "upload_files_server_path": "/nomad/fairdi/prod/fs/staging/w/wW45wJKiREOYTY0ARuknkA"
+    }
+  ]
+}
