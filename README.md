@@ -17,8 +17,12 @@ git clone https://github.com/bafgreat/fairmof-api.git
  ```
 ## Step 2: install
 Go to the respository and pip install by following commands below
-### i. `cd fairmof-api`
-### ii. `pip install .`
+ ```
+ cd fairmof-api
+ ```
+```
+pip install .
+```
 
 At this stage the api will be installed and you can now use it as a library to download any mof using the csd refcode.
 
