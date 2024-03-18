@@ -6,6 +6,7 @@ import os
 import pickle
 import csv
 import json
+import re
 import codecs
 from zipfile import ZipFile
 import numpy as np
@@ -13,12 +14,9 @@ import pandas as pd
 from ase import Atoms
 import ase
 
-
-
-
 class AtomsEncoder(json.JSONEncoder):
     '''
-    ASE atom type encorder for json to enable serialising 
+    ASE atom type encorder for json to enable serialising
     ase atom object.
     '''
 
@@ -42,19 +40,27 @@ class AtomsEncoder(json.JSONEncoder):
             return encorder_obj.todict()
         return json.JSONEncoder.default(self, encorder_obj)
 
-def json_to_aseatom(data,  encoder, filename):
+def json_to_aseatom(data, filename):
     '''
     serialise an ase atom type and write as json
     '''
+    encoder = AtomsEncoder
     with open(filename, 'w', encoding='utf-8') as f_obj:
         json.dump(data, f_obj, indent=4, sort_keys=False, cls=encoder)
     return
 
 
-def append_json_atom(data,  encoder, filename):
+def append_json_atom(data, filename):
     '''
     append a data containing an ase atom object
     '''
+    encoder = AtomsEncoder
+    if not os.path.exists(filename):
+        with open(filename, 'w', encoding='utf-8') as f_obj:
+            f_obj.write('{}')
+    elif os.path.getsize(filename) == 0:
+        with open(filename, 'w', encoding='utf-8') as f_obj:
+            f_obj.write('{}')
     with open(filename, 'r+', encoding='utf-8') as f_obj:
         # First we load existing data into a dict.
         file_data = json.load(f_obj)
@@ -64,7 +70,8 @@ def append_json_atom(data,  encoder, filename):
         f_obj.seek(0)
         # convert back to json.
 
-        json.dump(data, f_obj, indent=4, sort_keys=False, cls=encoder)
+        json.dump(data, f_obj, indent=4, sort_keys=True, cls=encoder)
+
 
 def numpy_to_json(ndarray, file_name):
     '''
@@ -101,7 +108,7 @@ def json_to_numpy(json_file):
 
 def append_json(new_data, filename):
     '''
-    append a new data in an existing json file 
+    append a new data in an existing json file
     '''
     if not os.path.exists(filename):
         with open(filename, 'w', encoding='utf-8') as file:
@@ -118,7 +125,8 @@ def append_json(new_data, filename):
         file.seek(0)
         # convert back to json.
         json.dump(file_data, file, indent=4, sort_keys=True)
-        
+
+
 def read_json(file_name):
     '''
     load a json file
@@ -131,7 +139,7 @@ def read_json(file_name):
 
 def csv_read(csv_file):
     '''
-    Read a csv file 
+    Read a csv file
     '''
     f_obj = open(csv_file, 'r', encoding='utf-8')
     data = csv.reader(f_obj)
@@ -200,9 +208,49 @@ def read_zip(zip_file):
     content.close()
     return content
 
+def remove_trailing_commas(json_file):
+    '''
+    Function to clean training commas in json files.
+    It function reads a json file then returns the cleaned up file
+    '''
+    with open(json_file, 'r') as file:
+        json_string = file.read()
+    trailing_object_commas_re = re.compile(r'(,)\s*}(?=([^"\\]*(\\.|"([^"\\]*\\.)*[^"\\]*"))*[^"]*$)')
+    trailing_array_commas_re = re.compile(r'(,)\s*\](?=([^"\\]*(\\.|"([^"\\]*\\.)*[^"\\]*"))*[^"]*$)')
+    objects_fixed = trailing_object_commas_re.sub("}", json_string)
+    return trailing_array_commas_re.sub("]", objects_fixed)
+
+
+def query_data(ref, data_object, col=None):
+    '''
+    Function to query data from a csv or json
+    '''
+    if isinstance(data_object, dict):
+        return data_object[ref]
+    else:
+        return data_object.loc[data_object[col] == ref]
+
+
+def combine_json_files(file1_path, file2_path, output_path):
+    '''
+    A function to combine two json  files
+    '''
+    with open(file1_path, 'r') as file1:
+        data1 = json.load(file1)
+
+    # Read data from the second file
+    with open(file2_path, 'r') as file2:
+        data2 = json.load(file2)
+
+    # Combine the data from both files
+    combined_data = {**data1, **data2}
+
+    # Write the combined data to the output file
+    with open(output_path, 'w') as output_file:
+        json.dump(combined_data, output_file, indent=2)
 
 def load_data(filename):
-    ''' 
+    '''
     function that recognises file extenion and chooses the correction
     function to load the data.
     '''

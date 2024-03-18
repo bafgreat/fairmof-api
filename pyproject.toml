@@ -1,13 +1,16 @@
 [tool.poetry]
 name = "fairmof-api"
 version = "0.1.0"
-description = ""
-authors = ["bafgreat <75862753+bafgreat@users.noreply.github.com>"]
+description = "A python API for downloading MOF data from NOMAD"
+authors = ["Dinga Wonanke"]
 readme = "README.md"
 packages = [{include = "fairmof_api"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+ase = "^3.22.1"
+pint = "^0.23"
+requests = "^2.31.0"
 
 
 [build-system]

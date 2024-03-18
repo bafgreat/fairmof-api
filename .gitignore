@@ -2,4 +2,13 @@ fairmof_api/upload.py
 fairmof_api/test.sh
 fairmof_api/comment.txt
 fairmof_api/analyse.py
+fairmof_api/download.py
+fairmof_api/quick_find.py
+fairmof_api/comment.txt
+.vscode/
 .pyenv
+.DS_Store
+data/FAIR-MOFs/
+data/csv/
+fairmof_api/__pycache__/
+poetry.lock
