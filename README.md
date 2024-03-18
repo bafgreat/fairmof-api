@@ -12,11 +12,13 @@ To enable easy access to this database, this api will enable users to directly e
 # Installation
 ## Step 1:clone the repository
 Start by cloning the repository the git repository
-``` git clone https://github.com/bafgreat/fairmof-api.git ```
+```
+git clone https://github.com/bafgreat/fairmof-api.git
+ ```
 ## Step 2: install
 Go to the respository and pip install by following commands below
-i. `cd fairmof-api`
-ii. `pip install .`
+### i. `cd fairmof-api`
+### ii. `pip install .`
 
 At this stage the api will be installed and you can now use it as a library to download any mof using the csd refcode.
 
@@ -27,11 +29,15 @@ At the moment you can download any mof, geometric properties and building units 
 
 ### Import the package
 Import the package with the following command
-``` from fairmof_api.api import download_archive ```
+```
+from fairmof_api.api import download_archive
+```
 
 ### Download the mof using the following command
  You can download any MOF whose recode is present using the following commadn download_archive(refcode), where refcode refers to the csd identifier. E.g.
- ```download_archive("EDUSIF")```
+ ```
+ download_archive("EDUSIF")
+ ```
  The above command will download MOF-5 whose csd refcode is EDUSIF. This will create a folder called FAIR-MOFs in the same working directory. In this directory, 2 json files will be create and two folders will be created.
 
 #### mof_properties.json
@@ -49,14 +55,19 @@ The folder "mofs_not_recognised_by_nomad" contains cif file of the refcode in ca
 You can also perform a batch operation, where every information will still be appended in FAIR-MOFs folder. You could aslo provide a custom name for the result folder.
 
 ## Running batch operations
-``` from fairmof_api.api import download_archive ```
+```
+from fairmof_api.api import download_archive
+```
+
 ```
 for refcode in list_of_refcodes:
     download_archive(refcode)
 ```
 The output of the above operation will be written to in FAIR-MOFs folder. if you do not want it to be written to this folder you can provide a custom name or path to the folder.
-``` download_archive(refcode, result_folder="Path_to_folder", extension='cif') ```
-Notice that you can also chose the extension. if you do not want the output to be written to be in cif format. You can choose any ase writable extension. 
+```
+download_archive(refcode, result_folder="Path_to_folder", extension='cif')
+ ```
+Notice that you can also chose the extension. if you do not want the output to be written to be in cif format. You can choose any ase writable extension.
 
 
 
