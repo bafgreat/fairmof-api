@@ -251,8 +251,8 @@ def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension
 
         filetyper.append_json(tmp_dic, mof_properties_filename)
 
-        sbu_data[refcode] = find_secondary_building_units(system_topology, system_atom)
-        filetyper.append_json_atom(sbu_data, mof_sbu_filename)
+        # sbu_data[refcode] = find_secondary_building_units(system_topology, system_atom)
+        # filetyper.append_json_atom(sbu_data, mof_sbu_filename)
     else:
         system_atom.write(f'{non_mof_cif_path}/{refcode}.{extension}')
     # except Exception:
