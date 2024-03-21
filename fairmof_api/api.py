@@ -228,17 +228,17 @@ def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension
     mainfile = entry_id['archive']['metadata']['mainfile']
     refcode = mainfile.split('/')[-1].split('.')[0]
 
-    # print(refcode)
+    print(refcode)
     # print (entry_id['archive'].keys())
     # print (entry_id['archive'].keys())
 
     archive = entry_id['archive']
 
     system = archive['run'][0]['system'][-1]['atoms']
-    print (system)
+    # print (system)
 
     system_atom = convert_system_to_atoms(system)
-    print (system_atom)
+    # print (system_atom)
 
     system_topology = archive['results']['material']['topology']
 
