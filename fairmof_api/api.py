@@ -228,9 +228,9 @@ def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension
     mainfile = entry_id['archive']['metadata']['mainfile']
     refcode = mainfile.split('/')[-1].split('.')[0]
 
-    print(refcode)
-    print (entry_id['archive'].keys())
-    print (entry_id['archive'].keys())
+    # print(refcode)
+    # print (entry_id['archive'].keys())
+    # print (entry_id['archive'].keys())
 
     archive = entry_id['archive']
 
