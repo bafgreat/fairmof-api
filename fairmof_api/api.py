@@ -216,11 +216,11 @@ def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension
 
     mof_properties_filename = os.path.join(result_folder, 'mof_properties.json')
     mof_sbu_filename = os.path.join(result_folder, 'mof_sbu.json')
-    # Create json files name
-    if isinstance(mof_properties_filename, str) and os.path.exists(mof_properties_filename):
-        tmp_dic = filetyper.load_data(mof_properties_filename)
-    if isinstance(mof_sbu_filename, str) and os.path.exists(mof_sbu_filename):
-        sbu_data = filetyper.load_data(mof_sbu_filename)
+    # # Create json files name
+    # if isinstance(mof_properties_filename, str) and os.path.exists(mof_properties_filename):
+    #     tmp_dic = filetyper.load_data(mof_properties_filename)
+    # if isinstance(mof_sbu_filename, str) and os.path.exists(mof_sbu_filename):
+    #     sbu_data = filetyper.load_data(mof_sbu_filename)
 
 
     entry_id = filetyper.load_data(entry_id_json_file)
