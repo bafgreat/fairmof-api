@@ -241,24 +241,24 @@ def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension
     # print (system_atom)
 
     system_topology = archive['results']['material']['topology']
+    try:
+        if len(system_topology)>1:
+            if system_topology[1]['label'] == 'MOF':
+                tmp_dic = {}
+                sbu_data = {}
 
-    if len(system_topology)>1:
-        if system_topology[1]['label'] == 'MOF':
-            tmp_dic = {}
-            sbu_data = {}
+                system_mof = system_topology[1]
+                mof_atom, mof_properties = extract_mof_and_properties(system_atom, system_mof)
+                tmp_dic[refcode] = mof_properties
+                mof_atom.write(f'{mof_cif_path}/{refcode}.{extension}')
 
-            system_mof = system_topology[1]
-            mof_atom, mof_properties = extract_mof_and_properties(system_atom, system_mof)
-            tmp_dic[refcode] = mof_properties
-            mof_atom.write(f'{mof_cif_path}/{refcode}.{extension}')
+                # filetyper.append_json(tmp_dic, mof_properties_filename)
 
-            # filetyper.append_json(tmp_dic, mof_properties_filename)
-
-            # sbu_data[refcode] = find_secondary_building_units(system_topology, system_atom)
-            # filetyper.append_json_atom(sbu_data, mof_sbu_filename)
+                # sbu_data[refcode] = find_secondary_building_units(system_topology, system_atom)
+                # filetyper.append_json_atom(sbu_data, mof_sbu_filename)
+            else:
+                system_atom.write(f'{non_mof_cif_path}/{refcode}.{extension}')
         else:
             system_atom.write(f'{non_mof_cif_path}/{refcode}.{extension}')
-    else:
-        system_atom.write(f'{non_mof_cif_path}/{refcode}.{extension}')
-    # except Exception:
-    #     pass
+    except Exception:
+        pass
