@@ -237,11 +237,13 @@ def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension
     system = archive['run'][0]['system'][-1]['atoms']
     # print (system)
 
-    system_atom = convert_system_to_atoms(system)
+
     # print (system_atom)
 
-    system_topology = archive['results']['material']['topology']
     try:
+        system_atom = convert_system_to_atoms(system)
+        system_topology = archive['results']['material']['topology']
+
         if len(system_topology)>1:
             if system_topology[1]['label'] == 'MOF':
                 tmp_dic = {}
