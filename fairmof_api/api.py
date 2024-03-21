@@ -194,6 +194,16 @@ def download_archive(refcode, result_folder="FAIR-MOFs", extension='cif'):
 
 
 def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension='cif'):
+    """
+    Download ase atoms provided a csd refcode is available
+
+    Parameters
+    ----------
+    entry_id_json_file : str
+    result_folder : str, optional
+    extension : str, optional
+
+    """
 
     if not os.path.exists(result_folder):
         os.makedirs(result_folder)
