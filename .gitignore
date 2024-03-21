@@ -5,6 +5,7 @@ fairmof_api/analyse.py
 fairmof_api/download.py
 fairmof_api/quick_find.py
 fairmof_api/comment.txt
+fairmof_api/download_from_entry_id.py  
 .vscode/
 .pyenv
 .DS_Store

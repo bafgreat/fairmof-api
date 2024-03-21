@@ -224,7 +224,7 @@ def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension
 
 
     entry_id = filetyper.load_data(entry_id_json_file)
-    mainfile = entry_id['mainfile']
+    mainfile = entry_id[0]['mainfile']
     refcode = mainfile.split('/')[-1].split('.')[0]
 
 
