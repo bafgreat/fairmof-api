@@ -229,6 +229,7 @@ def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension
     refcode = mainfile.split('/')[-1].split('.')[0]
 
     print(refcode)
+    print (entry_id.keys())
 
     system = entry_id['run'][0]['system'][-1]['atoms']
 
