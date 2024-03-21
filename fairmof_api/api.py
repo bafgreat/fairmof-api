@@ -224,11 +224,11 @@ def atoms_from_entry_id(entry_id_json_file, result_folder="FAIR-MOFs", extension
 
 
     entry_id = filetyper.load_data(entry_id_json_file)
-    print (entry_id)
+
     mainfile = entry_id['archive']['metadata']['mainfile']
     refcode = mainfile.split('/')[-1].split('.')[0]
 
-
+    print(refcode)
     try:
         system = entry_id['run'][0]['system'][-1]['atoms']
 
